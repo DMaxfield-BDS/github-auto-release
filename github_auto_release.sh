@@ -26,6 +26,7 @@
 
 echo "DANA:: ${SHELL}"
 pwd
+echo $@
 set -x
 
 ARTIFACT_DIRECTORY=""
