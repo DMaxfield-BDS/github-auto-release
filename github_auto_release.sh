@@ -27,6 +27,9 @@
 echo "DANA:: ${SHELL}"
 pwd
 echo $@
+echo ""
+echo $(env | sort)
+env | sort
 set -x
 
 ARTIFACT_DIRECTORY=""
